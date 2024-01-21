@@ -1,0 +1,46 @@
+[init]
+	defaultBranch = main
+[user]
+	email = vegard.stikbakke@gmail.com
+	name = Vegard Stikbakke
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = false
+[push]
+	default = current
+[pull]
+	ff = only
+[advice]
+	addEmptyPathspec = false
+	addIgnoredFile = true
+[alias]
+	s = status --short
+	g = status --short
+	l = log --graph --oneline --decorate
+	d = diff
+	ds = diff --staged
+	b = branch
+	bd = branch -d
+	bD = branch -D
+	pl = pull --ff-only
+	cb = checkout -b
+	cm = commit -m
+	amend = commit --amend --no-edit
+	sw = switch
+	recent = for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads
+	rec = for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads
+	wipe = reset --hard
+	m = merge
+	mm = merge main
+	c = checkout
+	ps = push --set-upstream
+	all = help -a
+	a = add
+	au = add -u
+	com = commit
+	ap = add -p
+	aup = add -u -p
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[merge]
+	conflictstyle = diff3
