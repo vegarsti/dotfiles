@@ -114,6 +114,12 @@
         "options": {
           "full_name": "docker"
         }
+      },
+      "raycast": {
+        "version": "1.65.1",
+        "options": {
+          "full_name": "raycast"
+        }
       }
     },
     "brew": {
@@ -1374,7 +1380,7 @@
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "781c67a24149c2ad6d96695d0293a798d7bd963f"
+        "revision": "c736de07dd5b9479a0905ce5aeb4f008aac7b6b7"
       },
       "ruimarinho/tap": {
         "revision": "b4e1129498a473684e4996328c697e2285d3c9c9"

@@ -62,6 +62,7 @@ cask 'intellij-idea-ce'
 cask 'docker'
 # I had already installed Arc
 # cask 'arc'
+cask 'raycast'
 
 # Fonts
 tap 'homebrew/cask-fonts'
