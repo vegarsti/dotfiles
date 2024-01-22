@@ -122,6 +122,8 @@ ZSH_HIGHLIGHT_STYLES[autodirectory]='fg=white,underline'
 # ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]='fg=white,bold'
 # ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]='fg=white,bold'
 # ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]='fg=white,bold'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='none'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='none'
 ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]='fg=white,bold'
 ZSH_HIGHLIGHT_STYLES[redirection]='fg=white,bold'
 
